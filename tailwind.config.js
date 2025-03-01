@@ -14,7 +14,7 @@ export default {
         sans: ["Inter", "system-ui", "sans-serif"],
       },
       backgroundImage: {
-        "back-image": "url('/src/assets/images/back.png')",
+        "back-image": "url('/images/back.png')",
       },
     },
   },

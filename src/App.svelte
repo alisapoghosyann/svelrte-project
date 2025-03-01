@@ -15,25 +15,25 @@
   }
 </script>
 
-<main class="flex justify-center py-6 bg-white">
+<main class="flex justify-center py-6 bg-white px-4">
   <div
     class="w-full max-w-[400px] px-4 py-9 flex flex-col bg-no-repeat bg-back-image bg-center bg-full max-h-[704px] rounded-2xl"
   >
     <div class="flex justify-between items-center mb-[100px] px-5">
-      <img src="/src/assets/images/logo.png" alt="User avatar" />
+      <img src="/images/logo.png" alt="User avatar" />
       <div class="flex">
         <img
-          src="/src/assets/images/first-man.png"
+          src="/images/first-man.png"
           alt="User avatar"
           class="size-10 rounded-full border-2 border-dark -mx-2"
         />
         <img
-          src="/src/assets/images/second-man.png"
+          src="/images/second-man.png"
           alt="User avatar"
           class="size-10 rounded-full border-2 border-dark -mx-2"
         />
         <img
-          src="/src/assets/images/third-man.png"
+          src="/images/third-man.png"
           alt="User avatar"
           class="size-10 rounded-full border-2 border-dark -mx-2"
         />
@@ -176,7 +176,7 @@
             </g>
           </svg>
 
-          <span class="nav-text text-sm/[21px] font-semibold">Home</span>
+          <span class="text-green text-sm/[21px] font-semibold">Home</span>
         </button>
 
         <button class="flex flex-col items-center space-y-1">
@@ -216,7 +216,7 @@
               fill="#F5F5F5"
             />
           </svg>
-          <span class="nav-text text-sm/[21px] font-semibold">Messages</span>
+          <span class="text-sm/[21px] font-semibold">Messages</span>
         </button>
 
         <button class="flex flex-col items-center space-y-1">
@@ -243,7 +243,7 @@
               fill="#F5F5F5"
             />
           </svg>
-          <span class="nav-text text-sm/[21px] font-semibold">Help</span>
+          <span class="text-sm/[21px] font-semibold">Help</span>
         </button>
       </div>
     </div>
